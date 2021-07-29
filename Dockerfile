@@ -25,6 +25,16 @@ RUN apt-get -y install npm
 RUN apt-get -y install git
 RUN apt-get -y install vim
 RUN npm install
+RUN npm install react-router-dom
+# Install material UI as CSS framework
+RUN npm install @material-ui/core
+RUN npm install @material-ui/icons
+# Install nodemon globally
+RUN npm install -g nodemon
+# Install nodemon as a development dependency
+RUN npm install --save-dev nodemon
+# Fixes nodemon dependencies 
+RUN npm audit fix
 
 # add app
 COPY . ./
