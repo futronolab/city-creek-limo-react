@@ -1,6 +1,6 @@
 import { Grid } from '@material-ui/core';
 
-function CorporateTravel() {
+export default function CorporateTravel() {
     return(
         <Grid container spacing={3}>
             <Grid item xs={12}>
@@ -9,5 +9,3 @@ function CorporateTravel() {
         </Grid>
     );
 }
-
-export default CorporateTravel;

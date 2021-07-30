@@ -12,7 +12,7 @@ import Rates from './pages/Rates.js'
 import {
   Switch, Route, Link, Redirect, BrowserRouter as Router,
 } from "react-router-dom";
-
+import Body from './pages/Body.js'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -37,6 +37,9 @@ function App() {
           <Grid container spacing={3}>
             <Grid item xs={12}>
               <NavigationHeader/>
+            </Grid>
+            <Grid item xs={12}>
+              <Body/>
             </Grid>
             <Grid item xs={12}>
               <Footer/>
