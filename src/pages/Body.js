@@ -14,9 +14,6 @@ export default function Body() {
     return(
         <Router>
             <Switch>
-                <Route exact path="/">
-                    <Home/>
-                </Route>
                 <Route exact path="/corporate_travel">
                     <CorporateTravel/>
                 </Route>
@@ -34,6 +31,9 @@ export default function Body() {
                 </Route>
                 <Route exact path="/van_service">
                     <VanService/>
+                </Route>
+                <Route path="/">
+                    <Home/>
                 </Route>
             </Switch>
         </Router>
