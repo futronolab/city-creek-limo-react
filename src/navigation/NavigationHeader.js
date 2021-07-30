@@ -9,8 +9,7 @@
       // Menu <-- use it for smDown with hidden
 
 import LogoAndNumber from './LogoAndNumber.js'
-import React, { useCallback } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 import '../App.css';
 import { 
   AppBar, Tabs, Tab, Grid,

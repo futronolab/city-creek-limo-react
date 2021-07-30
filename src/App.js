@@ -1,17 +1,10 @@
-// import Header from './Header.js'
-// import Button from '@material-ui/core/Button';
 import './App.css';
 import { CssBaseline, Container, } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 import NavigationHeader from './navigation/NavigationHeader.js'
 import Footer from './footer/Footer.js'
 import React from "react";
-import Rates from './pages/Rates.js'
-import {
-  Switch, Route, Link, Redirect, BrowserRouter as Router,
-} from "react-router-dom";
 import Body from './pages/Body.js'
 
 const useStyles = makeStyles((theme) => ({
