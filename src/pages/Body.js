@@ -1,10 +1,11 @@
 import CorporateTravel from "./CorporateTravel.js";
-import Home from './Home.js'
-import Rates from './Rates.js'
-import Resort from './Resort.js'
-import Tours from './Tours.js'
-import UpcomingEvents from './UpcomingEvents.js'
-import VanService from './VanService.js'
+import Home from './Home.js';
+import Rates from './Rates.js';
+import Resort from './Resort.js';
+import Tours from './Tours.js';
+import UpcomingEvents from './UpcomingEvents.js';
+import VanService from './VanService.js';
+import Comicon from './Comicon.js';
 
 import {
     Switch, Route, BrowserRouter as Router,
@@ -31,6 +32,9 @@ export default function Body() {
                 </Route>
                 <Route exact path="/van_service">
                     <VanService/>
+                </Route>
+                <Route exact path="/comicon">
+                    <Comicon/>
                 </Route>
                 <Route path="/">
                     <Home/>
